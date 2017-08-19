@@ -21,7 +21,7 @@
 	<preference name="ANDROID_FOREGROUND_PUSH" default="false" />
 
 	<js-module src="www/PushNotification.js" name="PushNotification">
-			<clobbers target="plugins.pushNotification" />
+			<clobbers target="cordova.plugins.pushNotification" />
 	</js-module>
 
 		<!-- android -->
